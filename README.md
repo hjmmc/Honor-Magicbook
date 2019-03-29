@@ -20,8 +20,7 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 
 ## What's Working
 
-- Integrated Graphics
-    - Use [SSDT-PNLF](EFI/CLOVER/ACPI/patched/SSDT-PNLF.aml) for brightness control
+- Integrated Graphics (Use [SSDT-PNLF](EFI/CLOVER/ACPI/patched/SSDT-PNLF.aml) for brightness control)
 - Wireless Card (Need to replace the wireless network card)
 - Touchpad
 - Camera

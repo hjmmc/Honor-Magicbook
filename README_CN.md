@@ -20,8 +20,7 @@
 
 ## 正常工作的设备
 
-- 显卡
-    - 亮度控制，使用 [SSDT-PNLF](EFI/CLOVER/ACPI/patched/SSDT-PNLF.aml) 
+- 显卡 (亮度控制，使用 [SSDT-PNLF](EFI/CLOVER/ACPI/patched/SSDT-PNLF.aml) )
 - 无线网卡（需要拆机更换无线网卡）
 - 触摸板（手势完美）
 - 摄像头
