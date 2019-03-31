@@ -153,6 +153,34 @@
 					WE9TSQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q01 to XQ01 for Fn+F1</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q01 to XQ02 for Fn+F2</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwMg==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
