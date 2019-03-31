@@ -25,7 +25,7 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 - Touchpad
 - Camera
 - Realtek ALC256
-    - The microphone and headphones are normal, the speaker sound is too small
+    - The microphone and headphones are normal, the speaker sound has been fixed using the self-compiled `AppleALC`, but sometimes there is no sound, you need to connect the headphones and then pull out to make a sound, the reason is unknown
 - Monitor
     - Need to re-open after hibernation to light up the monitor
   
