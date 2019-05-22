@@ -16,11 +16,15 @@
 				<true/>
 				<key>AddMCHC</key>
 				<true/>
+				<key>AddPNLF</key>
+				<true/>
 				<key>FixADP1</key>
 				<true/>
 				<key>FixAirport</key>
 				<true/>
 				<key>FixLAN</key>
+				<true/>
+				<key>FixWAK</key>
 				<true/>
 			</dict>
 			<key>Name</key>
@@ -169,7 +173,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _Q01 to XQ02 for Fn+F2</string>
+					<string>change _Q02 to XQ02 for Fn+F2</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -205,7 +209,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0</string>
+		<string>nv_disable=1 dart=0 -disablegfxfirmware bpr_probedelay=200 bpr_initialdelay=400 bpr_postresetdelay=400</string>
 		<key>DefaultVolume</key>
 		<string>MacOS</string>
 		<key>HibernationFixup</key>
@@ -216,24 +220,26 @@
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>SkipHibernateTimeout</key>
+		<true/>
 		<key>Timeout</key>
 		<integer>3</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
 		<key>HWPEnable</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
 			<integer>21</integer>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>LANInjection</key>
 		<false/>
@@ -291,6 +297,10 @@
 				</data>
 			</dict>
 		</dict>
+		<key>SetIntelBacklight</key>
+		<true/>
+		<key>SetIntelMaxBacklight</key>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
