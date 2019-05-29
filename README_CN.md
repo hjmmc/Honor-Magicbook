@@ -21,14 +21,14 @@
 ## 正常工作的设备
 
 - 显卡
-    - 亮度控制快捷键，需要使用 Clover 的 Patchs 重命名 _Q01,_Q02 (F1 ~ F12 分别对象 _Q01 ~ _Q0C)，配合使用 [SSDT-BrightKey-Magicbook.aml](EFI/CLOVER/ACPI/patched) 
+    - 亮度控制快捷键。需要使用 Clover 的 Patchs 重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 [SSDT-BrightKey-Magicbook.aml](EFI/CLOVER/ACPI/patched) 
 - 无线网卡
     - 需要拆机更换无线网卡
 - 触摸板
     - 手势完美
 - 摄像头
 - 声卡 Realtek ALC256
-    - 麦克风和耳机都很正常，扬声器声音已使用自编译的 `AppleALC` 修复，使用内置麦克风后扬声器声音会变得很小，需要接上耳机然后拔出(或者睡眠后唤醒)才能发声，原因不明
+    - 麦克风和耳机都很正常，扬声器声音已使用自编译的 `AppleALC` 修复，使用内置麦克风后扬声器声音会变得很小，需要接上耳机，然后拔出(或者睡眠后唤醒)才能发声，原因不明
 - 显示器
     - 休眠后需要重新开合才能点亮显示器
   
@@ -37,7 +37,7 @@
 
 - 指纹识别
 - 独显 MX150
-    - 已使用 [SSDT-Disable_DGPU](EFI/CLOVER/ACPI/patched/SSDT-Disable_DGPU.aml) 进行屏蔽
+    - 已使用 [SSDT-Disable_DGPU.aml](EFI/CLOVER/ACPI/patched) 进行屏蔽
     
 ## 个人推荐的一些小众软件
    

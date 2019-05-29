@@ -20,12 +20,15 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 
 ## What's Working
 
-- Integrated Graphics (Use [SSDT-PNLF](EFI/CLOVER/ACPI/patched/SSDT-PNLF.aml) for brightness control)
-- Wireless Card (Need to replace the wireless network card)
+- Integrated Graphics 
+    - Brightness control shortcut (Clover Patchs rename _Q01 &_Q02 and add [SSDT-BrightKey-Magicbook.aml](EFI/CLOVER/ACPI/patched) ) 
+- Wireless Card
+    - Need to replace the wireless network card
 - Touchpad
 - Camera
 - Realtek ALC256
-    - The microphone and headphones are normal, the speaker sound has been fixed using the self-compiled `AppleALC`, but sometimes there is no sound, you need to connect the headphones and then pull out to make a sound, the reason is unknown
+    - The microphone and headphones are normal, the speaker sound has been fixed using the self-compiled `AppleALC`, but the speaker sound becomes smaller after using the built-in microphone
+, you need to connect the headphones and then pull out to make a sound, the reason is unknown
 - Monitor
     - Need to re-open after hibernation to light up the monitor
   
@@ -34,5 +37,5 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 
 - Fingerprint sensor
 - MX150 graphic car
-    - Have used [SSDT-Disable_DGPU](EFI/CLOVER/ACPI/patched/SSDT-Disable_DGPU.aml) to disable it in order to save power
+    - Have used [SSDT-Disable_DGPU](EFI/CLOVER/ACPI/patched) to disable it in order to save power
 
