@@ -39,3 +39,13 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 - MX150 graphic car
     - Have used [SSDT-Disable_DGPU](EFI/CLOVER/ACPI/patched) to disable it in order to save power
 
+## Donate
+
+> If you find this project useful, you can buy author a glass of juice 🍹
+
+<details>
+  <summary>Alipay & Wechat</summary>
+    
+  <img src="https://cdn.lhjmmc.cn/alipay.jpg" width="300px"  />
+  <img src="https://cdn.lhjmmc.cn/wx.jpg" width="350px" />
+</details>
