@@ -30,7 +30,7 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
     - The microphone and headphones are normal, the speaker sound has been fixed using the self-compiled `AppleALC`, but the speaker sound becomes smaller after using the built-in microphone
 , you need to connect the headphones and then pull out to make a sound, the reason is unknown
 - Monitor
-    - Need to re-open after hibernation to light up the monitor
+    - [Fixed] Need to re-open after hibernation to light up the monitor
   
 
 ## What's not Working
