@@ -185,6 +185,20 @@
 					WFEwMg==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _LID to XLID</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0xJRA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WExJRA==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
