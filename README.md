@@ -26,11 +26,8 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
     - Need to replace the wireless network card
 - Touchpad
 - Camera
-- Realtek ALC256
-    - The microphone and headphones are normal, the speaker sound has been fixed using the self-compiled `AppleALC`, but the speaker sound becomes smaller after using the built-in microphone
-, you need to connect the headphones and then pull out to make a sound, the reason is unknown
+- Realtek ALC256 layout-id is 57
 - Monitor
-    - [Fixed] Need to re-open after hibernation to light up the monitor
   
 
 ## What's not Working
