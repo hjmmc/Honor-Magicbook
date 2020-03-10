@@ -54,6 +54,14 @@
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Search DSDT Processor is _PR.PR00</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
