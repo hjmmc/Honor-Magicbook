@@ -791,7 +791,7 @@
 		<key>LegacySchema</key>
 		<dict/>
 		<key>WriteFlash</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -863,7 +863,7 @@
 			<key>PointerSupportMode</key>
 			<string></string>
 			<key>TimerResolution</key>
-			<integer>5000</integer>
+			<integer>50000</integer>
 		</dict>
 		<key>Output</key>
 		<dict>
@@ -876,7 +876,7 @@
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
-			<true/>
+			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>DirectGopRendering</key>
