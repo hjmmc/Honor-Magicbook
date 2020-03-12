@@ -717,7 +717,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>2</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -764,7 +764,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>darkwake=0 gfxrst=1</string>
+				<string>darkwake=0 gfxrst=1 brcmfx-country=#a</string>
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
@@ -828,7 +828,6 @@
 			<string>ApfsDriverLoader-64.efi</string>
 			<string>FwRuntimeServices.efi</string>
 			<string>HFSPlus.efi</string>
-			<string>VirtualSmc.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
@@ -850,7 +849,7 @@
 		<key>Input</key>
 		<dict>
 			<key>KeyForgetThreshold</key>
-			<integer>0</integer>
+			<integer>5</integer>
 			<key>KeyMergeThreshold</key>
 			<integer>2</integer>
 			<key>KeySupport</key>
@@ -864,7 +863,7 @@
 			<key>PointerSupportMode</key>
 			<string></string>
 			<key>TimerResolution</key>
-			<integer>0</integer>
+			<integer>5000</integer>
 		</dict>
 		<key>Output</key>
 		<dict>
@@ -910,7 +909,7 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<true/>
+			<false/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
