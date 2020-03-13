@@ -21,21 +21,22 @@
 ## 正常工作的设备
 
 - 显卡
-    - 亮度控制快捷键。需要使用 Clover 的 Patchs 重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 [SSDT-BrightKey-Magicbook.aml](EFI/CLOVER/ACPI/patched) 
+    - 亮度控制快捷键: 需要重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 [SSDT-BrightKey-Magicbook.aml](EFIOC/OC/ACPI) 
+    - 亮度调节: `SSDT-PLUG.aml` + `WhateverGreen.kext`
 - 无线网卡
-    - 需要拆机更换无线网卡
+    - 需要拆机更换无线网卡(dw1560/dw1830)
 - 触摸板
-    - 手势完美
+    - 手势完美(更新系统触摸板不能用时需要重建缓存。驱动 `VoodooI2C` + `SSDT-OC-XOSI.aml`)
 - 摄像头
+    - 蓝牙和摄像头可能需要 `Hackintool.app` 内建usb才能正常休眠
 - 声卡 Realtek ALC256 声卡ID为57
 - 显示器
-  
+    - 修复休眠唤醒黑屏: 重命名 `_LID=>XLID` 配合使用 [SSDT-LID-Wake-After-Sleep.aml](EFIOC/OC/ACPI/)
 
 ## 不能正常工作的设备
 
 - 指纹识别
 - 独显 MX150
-    - 已使用 [SSDT-Disable_DGPU.aml](EFI/CLOVER/ACPI/patched) 进行屏蔽
     
 ## 其他
    
