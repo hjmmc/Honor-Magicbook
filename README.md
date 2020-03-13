@@ -21,20 +21,22 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 ## What's Working
 
 - Integrated Graphics 
-    - Brightness control shortcut (Clover Patchs rename _Q01 &_Q02 and add [SSDT-BrightKey-Magicbook.aml](EFI/CLOVER/ACPI/patched) ) 
+    - Brightness control shortcut (Rename _Q01 &_Q02 + `SSDT-BrightKey-Magicbook.aml`)
+    - Brightness adjustment: SSDT-PLUG.aml + WhateverGreen.kext
 - Wireless Card
     - Need to replace the wireless network card
 - Touchpad
+    - Driver `VoodooI2C` + `SSDT-OC-XOSI.aml`
 - Camera
 - Realtek ALC256 layout-id is 57
 - Monitor
+    - Fix black screen for hibernation: Rename `_LID => XLID` with `SSDT-LID-Wake-After-Sleep.aml`
   
 
 ## What's not Working
 
 - Fingerprint sensor
 - MX150 graphic car
-    - Have used [SSDT-Disable_DGPU](EFI/CLOVER/ACPI/patched) to disable it in order to save power
 
 ## Donate
 
