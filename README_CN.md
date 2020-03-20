@@ -22,7 +22,7 @@
 
 - 显卡
     - 亮度控制快捷键: 需要重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 [SSDT-BrightKey-Magicbook.aml](EFIOC/OC/ACPI) 
-    - 亮度调节: `SSDT-PLUG.aml` + `WhateverGreen.kext`
+    - 亮度调节: `SSDT-PNLF.aml` + `WhateverGreen.kext`
 - 无线网卡
     - 需要拆机更换无线网卡(dw1560/dw1830)
 - 触摸板

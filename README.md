@@ -22,7 +22,7 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 
 - Integrated Graphics 
     - Brightness control shortcut (Rename _Q01 &_Q02 + `SSDT-BrightKey-Magicbook.aml`)
-    - Brightness adjustment: SSDT-PLUG.aml + WhateverGreen.kext
+    - Brightness adjustment: SSDT-PNLF.aml + WhateverGreen.kext
 - Wireless Card
     - Need to replace the wireless network card
 - Touchpad
