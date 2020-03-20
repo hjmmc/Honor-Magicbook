@@ -21,7 +21,7 @@
 ## 正常工作的设备
 
 - 显卡
-    - 亮度控制快捷键: 需要重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 [SSDT-BrightKey-Magicbook.aml](EFIOC/OC/ACPI) 
+    - 亮度控制快捷键: 需要重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 `SSDT-BrightKey-Magicbook.aml`
     - 亮度调节: `SSDT-PNLF.aml` + `WhateverGreen.kext`
 - 无线网卡
     - 需要拆机更换无线网卡(dw1560/dw1830)
@@ -31,7 +31,7 @@
     - 蓝牙和摄像头可能需要 `Hackintool.app` 内建usb才能正常休眠
 - 声卡 Realtek ALC256 声卡ID为57
 - 显示器
-    - 修复休眠唤醒黑屏: 重命名 `_LID=>XLID` 配合使用 [SSDT-LID-Wake-After-Sleep.aml](EFIOC/OC/ACPI/)
+    - 修复休眠唤醒黑屏: 重命名 `_LID=>XLID` 配合使用 `SSDT-LID-Wake-After-Sleep.aml`
 
 ## 不能正常工作的设备
 
