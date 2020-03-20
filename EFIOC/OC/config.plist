@@ -189,13 +189,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix GLAN Wake etc. 6D,04 to 6D,00</string>
+				<string>Fix GLAN Wake etc. GPRW(6D,04) to Package(6D,Zero)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>Cm0KBA==</data>
+				<data>pEdQUlcKbQoE</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -203,7 +203,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>Cm0KAA==</data>
+				<data>pBIFAgptAKOj</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -215,13 +215,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix GLAN Wake etc. 6D,03 to 6D,00</string>
+				<string>Fix GLAN Wake etc. GPRW(6D,03) to Package(6D,Zero)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>Cm0KAw==</data>
+				<data>pEdQUlcKbQoD</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -229,7 +229,33 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>Cm0KAA==</data>
+				<data>pBIFAgptAKOj</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix GLAN Wake etc. GPRW(6D,Zero) to Package(6D,Zero)</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>pEdQUlcKbQA=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>pBIFAgptAKM=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>

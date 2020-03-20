@@ -173,30 +173,44 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Fix GLAN Wake etc. 6D,04 to 6D,00</string>
+					<string>Fix GLAN Wake etc. GPRW(6D,04) to Package(6D,Zero)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					Cm0KBA==
+					pEdQUlcKbQoE
 					</data>
 					<key>Replace</key>
 					<data>
-					Cm0KAA==
+					pBIFAgptAKOj
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Fix GLAN Wake etc. 6D,03 to 6D,00</string>
+					<string>Fix GLAN Wake etc. GPRW(6D,03) to Package(6D,Zero)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					Cm0KAw==
+					pEdQUlcKbQoD
 					</data>
 					<key>Replace</key>
 					<data>
-					Cm0KAA==
+					pBIFAgptAKOj
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Fix GLAN Wake etc. GPRW(6D,Zero) to Package(6D,Zero)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					pEdQUlcKbQA=
+					</data>
+					<key>Replace</key>
+					<data>
+					pBIFAgptAKM=
 					</data>
 				</dict>
 			</array>
