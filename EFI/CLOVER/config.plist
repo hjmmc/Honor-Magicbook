@@ -171,6 +171,34 @@
 					WExJRAA=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Fix GLAN Wake etc. 6D,04 to 6D,00</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					Cm0KBA==
+					</data>
+					<key>Replace</key>
+					<data>
+					Cm0KAA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Fix GLAN Wake etc. 6D,03 to 6D,00</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					Cm0KAw==
+					</data>
+					<key>Replace</key>
+					<data>
+					Cm0KAA==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
