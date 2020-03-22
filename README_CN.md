@@ -43,6 +43,8 @@
    [个人推荐的一些小众软件](https://github.com/hjmmc/Honor-Magicbook/wiki/%E4%B8%AA%E4%BA%BA%E6%8E%A8%E8%8D%90%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E4%BC%97%E8%BD%AF%E4%BB%B6)
 
    [替换启动 Logo 为 Apple 图标](LOGO)
+   
+   [荣耀MagicBook I5黑苹果折腾记（超详细教程与排坑）](https://www.166167.xyz/archives/3/)
 
 
 ## 打赏作者
