@@ -37,6 +37,13 @@
 
 - 指纹识别
 - 独显 MX150
+
+## 安装完成后需要
+
+- 修改 PlatformInfo
+- 生成自己的CPU变频数据 [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
+- 开启HIDPI [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
+- 修复深度睡眠、定制USBPort [Hackintool](https://github.com/headkaze/Hackintool/releases)
     
 ## 其他
    
@@ -44,7 +51,9 @@
 
    [替换启动 Logo 为 Apple 图标](LOGO)
    
-   [荣耀MagicBook I5黑苹果折腾记（超详细教程与排坑）](https://www.166167.xyz/archives/3/)
+   [荣耀MagicBook I5黑苹果折腾记（超详细教程与排坑）](https://www.mrchung.cn/archives/3/)
+   
+   [QQ交流群](https://github.com/hjmmc/Honor-Magicbook/issues/26)
 
 
 ## 打赏作者
