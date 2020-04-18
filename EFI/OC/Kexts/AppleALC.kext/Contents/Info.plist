@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19E266</string>
+	<string>19E287</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -2124,6 +2124,36 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>hjmmc - Realtek ALC256 (3246) for Magicbook 2018 with 4CH</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfkAFHDAIBtxwSAbcd
+					AQG3HhcBtx+QAbcMAgIXHCACFx0QAhceIQIX
+					HwQCFwwCASccMAEnHQEBJx6mAScfkAGXHEAB
+					lx0QAZcegQGXHwQBNxzwATcdAAE3HgABNx9A
+					AYcc8AGHHQABhx4AAYcfQAGnHPABpx0AAace
+					AAGnH0AB1xzwAdcdAAHXHgAB1x9AAecc8AHn
+					HQAB5x4AAecfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>17</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgG3DAICFwwC
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>Andres ZeroCross for Dell 5570</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
@@ -2256,15 +2286,18 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>Kk Realtek ALC256 (3246) for magicbook update 4ch by hjmmc</string>
+					<string>Kk Realtek ALC256 (3246) for magicbook</string>
 					<key>CodecID</key>
 					<integer>283902550</integer>
 					<key>ConfigData</key>
 					<data>
-					AZccMAGXHRABlx6LAZcfAgG3HEABtx0BAbce
-					GwG3H5ABtwwCAUccQQFHHQIBRx4bAUcfkAFH
-					DAICFxxQAhcdEAIXHisCFx8CAhcMAgEnHHAB
-					Jx0BAScepgEnH5A=
+					AScccAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxzwAUcdAAFHHgABRx9AAYcc8AGH
+					HQABhx4AAYcfQAGXHDABlx0QAZceiwGXHwIB
+					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4Q
+					AbcfkAG3DAIB1xzwAdcdAAHXHgAB1x9AAecc
+					8AHnHQAB5x4AAecfQAIXHFACFx0QAhceKwIX
+					HwICFwwC
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>

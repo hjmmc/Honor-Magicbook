@@ -282,9 +282,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>
-				OQAAAA==
-				</data>
+				<integer>17</integer>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
@@ -405,7 +403,11 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
+		<key>AppleIntelCPUPM</key>
+		<true/>
 		<key>AppleRTC</key>
+		<true/>
+		<key>KernelPm</key>
 		<true/>
 		<key>KextsToPatch</key>
 		<array>
