@@ -24,7 +24,7 @@
     - 亮度控制快捷键: 需要重命名 _Q01,_Q02 (F1 ~ F12 分别对应 _Q01 ~ _Q0C)，配合使用 `SSDT-BrightKey-Magicbook.aml`
     - 亮度调节: `SSDT-PNLF.aml` + `WhateverGreen.kext`
 - 无线网卡
-    - 需要拆机更换无线网卡(dw1560/dw1830/bcm94360cs2可能需要裁剪转接卡)
+    - 需要拆机更换无线网卡(~~dw1560太贵300不建议~~/dw1830/bcm94360cs2可能需要裁剪转接卡)
 - 触摸板
     - 手势完美(更新系统触摸板不能用时需要重建缓存。驱动 `VoodooI2C` + `SSDT-OC-XOSI.aml`)
 - 摄像头
