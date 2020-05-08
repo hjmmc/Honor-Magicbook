@@ -28,9 +28,11 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 - Touchpad
     - Driver `VoodooI2C` + `SSDT-OC-XOSI.aml`
 - Camera
-- Realtek ALC256 layout-id is 17 with 4CH
+- Realtek ALC256 
+	- New layout-id is 17 with 4CH
 - Monitor
     - Fix black screen for hibernation: Rename `_LID => XLID` with `SSDT-LID-Wake-After-Sleep.aml`
+    - [HDMIFix](https://github.com/hjmmc/Honor-Magicbook/tree/master/HDMIFix)
   
 
 ## What's not Working
