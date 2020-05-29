@@ -33,7 +33,11 @@
     - 自编译声卡ID17,同时驱动高低音共四个喇叭, 不喜欢的可以自行换回57, EFI 默认提供的是可以静音版本的 ALC，但开机可能会有破音现象， 如果需要不破音版，下载最新的 [AppleALC](https://github.com/acidanthera/AppleALC/releases) 替换即可
 - 显示器
     - 修复休眠唤醒黑屏: 重命名 `_LID=>XLID` 配合使用 `SSDT-LID-Wake-After-Sleep.aml`
-    - 修复 [HDMI](https://github.com/hjmmc/Honor-Magicbook/tree/master/HDMIFix)
+    - HDMI 黑屏卡顿问题可尝试：修复 [HDMI](https://github.com/hjmmc/Honor-Magicbook/tree/master/HDMIFix)
+- 键盘
+    - 已经将之前不能使用的功能键添加映射,fn+f7映射为下一曲,fn+f9映射为f16，fn+f10映射为f17，fn+f12映射为f18
+    - 有基础知识的看参考[提交记录](https://github.com/hjmmc/Honor-Magicbook/commit/632325a127e79a2780331c754b5cdcbedb0c497b)定制自己的快捷键
+
 
 ## 不能正常工作的设备
 
@@ -42,10 +46,11 @@
 
 ## 安装完成后需要
 
-- 修改 PlatformInfo
 - 生成自己的CPU变频数据 [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
 - 开启HIDPI [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 - 修复深度睡眠、定制USBPort [Hackintool](https://github.com/headkaze/Hackintool/releases)
+- 若无法登录 iMessage、FaceTime：1.[内建网卡](https://github.com/daliansky/OC-little/tree/master/13-%E4%BB%BF%E5%86%92%E4%BB%A5%E5%A4%AA%E7%BD%91%E5%92%8C%E9%87%8D%E7%BD%AE%E4%BB%A5%E5%A4%AA%E7%BD%91BSD%20Name)、2.修改 PlatformInfo，修改前请务必退出当前AppleID，否则账号将可能被拉黑
+    > 用默认序列号可以登录的就不要再折腾了，用 OC 版全新安装完一般都可以登录的，无法登录很可能是账号被拉黑了）
     
 ## 其他
    
