@@ -292,6 +292,10 @@
 				<data>AAAWWQ==</data>
 				<key>complete-modeset-framebuffers</key>
 				<data>AAAAAAAAAAE=</data>
+				<key>force-online</key>
+				<data>AQAAAA==</data>
+				<key>force-online-framebuffers</key>
+				<data>AAAAAAAAAAE=</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
 				<key>enable-hdmi20</key>
