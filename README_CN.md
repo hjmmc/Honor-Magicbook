@@ -33,7 +33,6 @@
     - 自编译声卡ID17,同时驱动高低音共四个喇叭, 不喜欢的可以自行换回57, EFI 默认提供的是可以静音版本的 ALC，但开机可能会有破音现象， 如果需要不破音版，下载最新的 [AppleALC](https://github.com/acidanthera/AppleALC/releases) 替换即可
 - 显示器
     - 修复休眠唤醒黑屏: 重命名 `_LID=>XLID` 配合使用 `SSDT-LID-Wake-After-Sleep.aml`
-    - HDMI 黑屏卡顿问题可尝试：修复 [HDMI](https://github.com/hjmmc/Honor-Magicbook/tree/master/HDMIFix)
 - 键盘
     - 已经将之前不能使用的功能键添加映射,fn+f7映射为下一曲,fn+f9映射为f16，fn+f10映射为f17，fn+f12映射为f18
     - 有基础知识的看参考[提交记录](https://github.com/hjmmc/Honor-Magicbook/commit/632325a127e79a2780331c754b5cdcbedb0c497b)定制自己的快捷键

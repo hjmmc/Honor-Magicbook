@@ -32,7 +32,9 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 	- New layout-id is 17 with 4CH
 - Monitor
     - Fix black screen for hibernation: Rename `_LID => XLID` with `SSDT-LID-Wake-After-Sleep.aml`
-    - [HDMIFix](https://github.com/hjmmc/Honor-Magicbook/tree/master/HDMIFix)
+- PS2Map
+    - fn+f7 => next music, fn+f9 => f16, fn+f10 => f17, fn+f12 => f18. [commit](https://github.com/hjmmc/Honor-Magicbook/commit/632325a127e79a2780331c754b5cdcbedb0c497b)
+
   
 
 ## What's not Working
