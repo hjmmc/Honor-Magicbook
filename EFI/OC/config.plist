@@ -427,6 +427,8 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAWWQ==</data>
+				<key>complete-modeset-framebuffers</key>
+				<data>AAAAAAAAAAE=</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
 				<key>enable-hdmi20</key>
@@ -436,15 +438,13 @@
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
+				<data>AAAAAA==</data>
 				<key>framebuffer-con2-index</key>
 				<data>/////w==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-portcount</key>
-				<data>AgAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
@@ -1055,7 +1055,7 @@
 			<key>KeySupportMode</key>
 			<string>Auto</string>
 			<key>KeySwap</key>
-			<false/>
+			<true/>
 			<key>PointerSupport</key>
 			<false/>
 			<key>PointerSupportMode</key>
