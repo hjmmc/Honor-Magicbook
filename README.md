@@ -1,6 +1,8 @@
 # Honor-Magicbook
 Honor-Magicbook i5-8250u 14'' Hackintosh
 
+No More Clover
+
 [English](README.md) | [中文](README_CN.md)
 
 ## Configuration
@@ -47,8 +49,8 @@ Honor-Magicbook i5-8250u 14'' Hackintosh
 > If you find this project useful, you can buy author a glass of juice 🍹
 
 <details>
-  <summary>Alipay & Wechat</summary>
-    
+  <summary>Alipay & Wechat & Paypal</summary>
   <img src="https://cdn.lhjmmc.cn/alipay.jpg" width="300px"  />
   <img src="https://cdn.lhjmmc.cn/wx.jpg" width="350px" />
+  <a alt="Paypal" href="https://www.paypal.com/paypalme/hjmmc"><img src="https://cdn.lhjmmc.cn/paypal.png" width="250px" /></a>
 </details>

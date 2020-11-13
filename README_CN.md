@@ -1,6 +1,8 @@
 # Honor-Magicbook
 华为荣耀 Magicbook i5-8250u 14寸 黑苹果
 
+不再支持 Clover
+
 [English](README.md) | [中文](README_CN.md)
 
 ## Configuration
@@ -65,9 +67,8 @@
 ## 打赏作者
 
 <details>
-  <summary>支付宝&微信</summary>
-    
+  <summary>Alipay & Wechat & Paypal</summary>
   <img src="https://cdn.lhjmmc.cn/alipay.jpg" width="300px"  />
   <img src="https://cdn.lhjmmc.cn/wx.jpg" width="350px" />
+  <a alt="Paypal" href="https://www.paypal.com/paypalme/hjmmc"><img src="https://cdn.lhjmmc.cn/paypal.png" width="250px" /></a>
 </details>
-
