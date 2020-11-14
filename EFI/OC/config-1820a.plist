@@ -461,11 +461,11 @@
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
 				<key>compatible</key>
-				<string>pci14e4,4331</string>
+				<string>pci14e4,43a0</string>
 				<key>device_type</key>
 				<string>Airport Extreme</string>
 				<key>model</key>
-				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
+				<string>BCM4352 802.11ac Wireless Network Adapter</string>
 				<key>name</key>
 				<string>Airport</string>
 				<key>pci-aspm-default</key>
