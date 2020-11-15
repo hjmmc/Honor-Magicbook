@@ -811,11 +811,11 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>19.9.9</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -1110,7 +1110,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>darkwake=0 gfxrst=1 igfxonln=1 igfxonlnfbs=0x010203 brcmfx-country=#a brcmfx-driver=2</string>
+				<string>darkwake=0 gfxrst=1 igfxonln=1 igfxonlnfbs=0x010203 brcmfx-country=#a -v</string>
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
