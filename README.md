@@ -44,13 +44,19 @@ No More Clover
 - Fingerprint sensor
 - MX150 graphic car
 
+## Know issuse
+
+1. DW1560 and DW1820A not work whitout verbose mode (-v) at BigSur
+2. Mute button not work
+    - You can enable `AppleALC-mute-button.kext`, but this will cause some noise when starting up
+
 ## Donate
 
 > If you find this project useful, you can buy author a glass of juice 🍹
 
 <details>
-  <summary>Alipay & Wechat & Paypal</summary>
+  <summary>Alipay & Wechat & Paypal</summary>  
+  <a alt="Paypal" href="https://www.paypal.com/paypalme/hjmmc"><img src="https://cdn.lhjmmc.cn/paypal.png" width="250px" /></a>
   <img src="https://cdn.lhjmmc.cn/alipay.jpg" width="300px"  />
   <img src="https://cdn.lhjmmc.cn/wx.jpg" width="350px" />
-  <a alt="Paypal" href="https://www.paypal.com/paypalme/hjmmc"><img src="https://cdn.lhjmmc.cn/paypal.png" width="250px" /></a>
 </details>

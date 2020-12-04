@@ -45,6 +45,12 @@
 - 指纹识别
 - 独显 MX150
 
+## 已知问题
+
+1. 在Big Sur上，如果不使用啰嗦模式（-v），DW1560和DW1820A将无法工作
+2. 静音按钮不起作用
+    - 可以启用`AppleALC-mute-button.kext`，但开机时会出现破音
+
 ## 安装完成后需要
 
 - 生成自己的CPU变频数据 [one-key-cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
@@ -68,7 +74,7 @@
 
 <details>
   <summary>Alipay & Wechat & Paypal</summary>
+  <a alt="Paypal" href="https://www.paypal.com/paypalme/hjmmc"><img src="https://cdn.lhjmmc.cn/paypal.png" width="250px" /></a>
   <img src="https://cdn.lhjmmc.cn/alipay.jpg" width="300px"  />
   <img src="https://cdn.lhjmmc.cn/wx.jpg" width="350px" />
-  <a alt="Paypal" href="https://www.paypal.com/paypalme/hjmmc"><img src="https://cdn.lhjmmc.cn/paypal.png" width="250px" /></a>
 </details>
