@@ -46,9 +46,9 @@ No More Clover
 
 ## Know issuse
 
-1. DW1560 and DW1820A not work whitout verbose mode (-v) at BigSur
+1. ~~(Fixed)DW1560 and DW1820A not work whitout verbose mode (-v) at BigSur~~
 2. Mute button not work
-    - You can enable `AppleALC-mute-button.kext`, but this will cause some noise when starting up
+    - You can enable `AppleALC-mute-button.kext` and disable `AppleALC.kext`, but this will cause some noise when starting up
 
 ## Donate
 

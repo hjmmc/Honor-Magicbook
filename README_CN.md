@@ -47,9 +47,9 @@
 
 ## 已知问题
 
-1. 在Big Sur上，如果不使用啰嗦模式（-v），DW1560和DW1820A将无法工作
+1. ~~(已修复)在Big Sur上，如果不使用啰嗦模式（-v），DW1560和DW1820A将无法工作~~
 2. 静音按钮不起作用
-    - 可以启用`AppleALC-mute-button.kext`，但开机时会出现破音
+    - 可以启用`AppleALC-mute-button.kext`且禁用`AppleALC.kext`，但开机时会出现破音
 
 ## 安装完成后需要
 
