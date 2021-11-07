@@ -73,8 +73,7 @@
 ## 打赏作者
 
 <details>
-  <summary>Alipay & Wechat & Paypal</summary>
-  <a alt="Paypal" href="https://www.paypal.com/paypalme/hjmmc"><img src="https://cdn.lhjmmc.cn/paypal.png" width="250px" /></a>
+  <summary>Alipay & Wechat</summary>
   <img src="https://cdn.lhjmmc.cn/alipay.jpg" width="300px"  />
   <img src="https://cdn.lhjmmc.cn/wx.jpg" width="350px" />
 </details>
