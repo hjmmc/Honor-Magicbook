@@ -46,7 +46,7 @@ No More Clover
 
 ## Know issuse
 
-1. ~~(Fixed)DW1560 and DW1820A not work whitout verbose mode (-v) at BigSur~~
+1. After Sonoma DW1560 and DW1820A need [OpenCore-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) Post-Install Root Patch
 2. Mute button not work
     - You can enable `AppleALC-mute-button.kext` and disable `AppleALC.kext`, but this will cause some noise when starting up
 
