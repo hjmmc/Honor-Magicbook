@@ -8,6 +8,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Enable internal USB ports (camera/BT) via _UPC</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RHUB-UPC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Need Rename  _Q01 to XQ01  _Q02 to XQ02</string>
 				<key>Enabled</key>
 				<true/>
@@ -91,6 +99,36 @@
 		<array/>
 		<key>Patch</key>
 		<array>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>Rename _UPC to XUPC (SSDT-RHUB-UPC provides new values)</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1VQQw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFVQQw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
 			<dict>
 				<key>Base</key>
 				<string></string>
@@ -420,6 +458,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
@@ -481,16 +521,10 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAWWQ==</data>
-				<key>complete-modeset-framebuffers</key>
-				<data>AAAAAAAAAAE=</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
-				<key>force-online-framebuffers</key>
-				<data>AAAAAAAAAAE=</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
@@ -499,14 +533,12 @@
 				<data>AAAAAA==</data>
 				<key>framebuffer-con2-index</key>
 				<data>/////w==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAJ5TwIAAAAACkcAQSlHxF4AvuQlV1ZlCkjUFQAAAABAQEBAQEBAQEBAQEBAQEBPDeA3nA4FEAwIDYANa0QAAAaAAAAEAAAAAAAAAAAAAAAAAAAAAAA/gBCT0UgQ1EKICAgICAgAAAA/ABUVjE0MEZITS1OSDAKAP0=</data>
 			</dict>
 			<key>#PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
 			<dict>
@@ -855,6 +887,24 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>SimpleBCM.kext</string>
+				<key>Comment</key>
+				<string>V1.0.1 | SimpleBCM embedded stack</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SimpleBCM</string>
+				<key>MaxKernel</key>
+				<string>25.99.99</string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
@@ -873,17 +923,17 @@
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>V1.0 | User-supplied optional dependency</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
-				<string>22.9.9</string>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -1105,6 +1155,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SimpleHDA.kext</string>
+				<key>Comment</key>
+				<string>V1.0.0</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SimpleHDA</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1152,9 +1220,9 @@
 			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
-			<key>CustomSMBIOSGuid</key>
-			<false/>
 			<key>CustomPciSerialDevice</key>
+			<false/>
+			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
@@ -1165,7 +1233,7 @@
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
-			<false/>
+			<true/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>ForceAquantiaEthernet</key>
@@ -1339,7 +1407,11 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>darkwake=0 brcmfx-country=#a gfxrst=1 igfxonln=1 igfxonlnfbs=0x010203</string>
+				<string>keepsyms=1 darkwake=0 brcmfx-country=#a gfxrst=1 igfxonln=1 igfxonlnfbs=0x010203 bpr_initialdelay=300 bpr_preresetdelay=500 bpr_postresetdelay=500 -btlfxallowanyaddr</string>
+				<key>bluetoothExternalDongleFailed</key>
+				<data>AA==</data>
+				<key>bluetoothInternalControllerInfo</key>
+				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
@@ -1358,14 +1430,16 @@
 			<array>
 				<string>boot-args</string>
 				<string>csr-active-config</string>
+				<string>bluetoothExternalDongleFailed</string>
+				<string>bluetoothInternalControllerInfo</string>
 			</array>
 		</dict>
 		<key>LegacyOverwrite</key>
 		<false/>
-		<key>WriteFlash</key>
-		<true/>
 		<key>LegacySchema</key>
 		<dict/>
+		<key>WriteFlash</key>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1377,24 +1451,24 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
+			<key>MLB</key>
+			<string>C02124700GU0000FB</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
-			<key>MLB</key>
-			<string>C02015600GU00001M</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
-			<data>eSD79GMn</data>
+			<data>6GPPy0eM</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro16,3</string>
+			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CKMYUP3XY</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>2BAA58C7-0D26-4465-A454-5C0753A28569</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1403,7 +1477,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Auto</string>
+		<string>Create</string>
 		<key>UseRawUuidEncoding</key>
 		<false/>
 	</dict>
@@ -1444,9 +1518,9 @@
 			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
-			<key>PointerPollMin</key>
-			<integer>0</integer>
 			<key>PointerPollMax</key>
+			<integer>0</integer>
+			<key>PointerPollMin</key>
 			<integer>0</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
@@ -1489,6 +1563,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1501,10 +1577,26 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
 				<string>HFSPlus.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>HideVerbose</key>
+				<false/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>ResetNvramEntry.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -1555,15 +1647,15 @@
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>Resolution</key>
-			<string></string>
+			<string>Max</string>
 			<key>SanitiseClearScreen</key>
-			<true/>
+			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
-			<key>UgaPassThrough</key>
-			<false/>
 			<key>UIScale</key>
 			<integer>-1</integer>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1642,6 +1734,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
+		<array/>
+		<key>Unload</key>
 		<array/>
 	</dict>
 </dict>
